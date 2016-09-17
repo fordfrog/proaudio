@@ -34,7 +34,7 @@ RDEPEND="dev-qt/qtcore
 	vst? ( app-emulation/wine )"
 DEPEND="${RDEPEND}"
 
-DOCS=( README AUTHORS TODO )
+DOCS=( README.md )
 
 src_configure() {
 	mycmakeargs=(
